@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./assets/style/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body >
+    <!-- container -->
+    <div id = "app" class="container-fluid">
+        <div class=" row h-100 bg-dark ">
+            <!-- side bar -->
+            <nav class =" side-bar pl-4 bg-secondary d-flex flex-column justify-content-between">
+                <div class="pt-5">
+                    <ul class = "list-unstyled font-weight-bold">
+                        <li class ="mb-5">
+                            <img class="logo" src="./assets/images/logo-ANSWER.svg" alt="">
+                        </li>
+                        <li class="d-flex flex-row align-items-center pb-4">
+                            <span class="material-icons pr-2">
+                                poll
+                            </span>
+                            <span class="text-dark">Dashbord</span>
+                        </li>
+                        <li class="d-flex flex-row align-items-center pb-4">
+                            <span class="material-icons pr-2">
+                                question_answer
+                            </span>
+                            <span>Question</span>
+                        </li>
+                        <li class="text-primary d-flex flex-row align-items-center pb-4">
+                            <a class="d-flex flex-row align-items-center text-dark" href="index.html">
+                                <span class="material-icons pr-2 ">
+                                assignment
+                                </span>
+                                <span>Assignment</span>
+                            </a>
+                            
+                        </li>
+                        <li class="d-flex flex-row align-items-center pb-4">
+                            <span class="material-icons pr-2">
+                                video_library
+                            </span>
+                            <span>Course</span>
+                        </li>
+                        <li class="d-flex flex-row align-items-center pb-4 bar">
+                            <a class="d-flex flex-row align-items-center" href="admin.html">
+                                <span class="material-icons pr-2">
+                                supervisor_account
+                                </span>
+                                <span>Admin</span>
+                            </a>
+                            
+                        </li>
+                        <li class="d-flex flex-row align-items-center pb-4">
+                            <span class="material-icons pr-2">
+                                settings
+                            </span>
+                            <span>Settings</span>
+                        </li>   
+                    </ul>
+                </div>
+                <div class = "d-flex flex-direction-row ">
+                    <div class="circular-protrait  mr-2">
+                        <img class = "user-photo" src="./assets/images/andychen.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p class="user-name">
+                            Andy Chen
+                        </p>
+                        <p class="user-mail">
+                            andy0401@mail.com
+                        </p>
+                    </div>
+                </div>
+            </nav>
+            <div class="col bg-white" >
+                <!-- header -->
+                <section class="header pt-5 pb-5 pl-3 pr-4 ml-3 mr-3 bg-white d-flex flex-direction-row justify-content-between">
+                    <div class="d-flex flex-direction-row align-items-center">
+                        <span class="h4 mr-5 font-weight-bold">
+                            Admin
+                        </span>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons text-primary mr-3">
+                                add
+                            </span>
+                            <span class=" font-weight-bold">
+                                Add New Admin
+                            </span>
+                        </div>
+                    </div>
+                    <div class="pl-2 d-flex flex-direction-row align-items-center">
+                        <span class="material-icons mr-4">
+                            search
+                        </span>
+                        <span class="material-icons">
+                            notifications_active
+                        </span>
+                    </div>
+
+                </section>
+                <!-- content -->
+                <section class="content row pl-5 pr-5">
+                    <!-- table -->
+                    <table class="col-12 table bg-white">
+                        <thead>
+                            <tr>
+                                <th class="border-dark border-top-0 border-bottom-2 font-weight-bold">
+                                    <span class="vertical-alignment">
+                                        ID
+                                    </span>
+                                    <span class="material-icons ml-3 vertical-alignment">
+                                      arrow_downward
+                                    </span>
+                                 </th>
+                                <th class="border-dark border-top-0 border-bottom-2 font-weight-bold">Name</th>
+                                <th class="border-dark border-top-0 border-bottom-2 font-weight-bold">Email</th>
+                                <th class="border-dark border-top-0 border-bottom-2 font-weight-bold">Varify</th>
+                                <th class="border-dark border-top-0 border-bottom-2 font-weight-bold"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                               <td>#1</td>
+                               <td>Emir Wicks</td>
+                               <td>emir.wicks@mail.com</td>
+                               <td>
+                                   Yes
+                                </td>
+                                <td class="item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                        visibility
+                                       </span>
+                                    <span class="material-icons">
+                                        create
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td>#2</td>
+                               <td>Zaina Goldsmith</td>
+                               <td>zaina.goldsmith@mail.com</td>
+                               <td>Yes</td>
+                               <td class="item-align-right">
+                                   <span class="material-icons mr-4">
+                                    visibility
+                                   </span>
+                                   <span class="material-icons">
+                                    create
+                                   </span>
+                            </td>
+                            </tr>
+                            <tr>
+                               <td>#3</td>
+                               <td>Mahima Lopez</td>
+                               <td>mahima.lopez@mail.com</td>
+                               <td>Yes</td>
+                               <td class="item-align-right">
+                                   <span class="material-icons mr-4 ">
+                                    visibility
+                                   </span>
+                                   <span class="material-icons">
+                                    create
+                                   </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#4</td>
+                                <td>Pharrell Murray</td>
+                                <td>pharrell.murray@mail.com</td>
+                                <td>Yes</td>
+                                <td class="item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                     visibility
+                                    </span>
+                                    <span class="material-icons">
+                                     create
+                                    </span>
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td>#5</td>
+                                <td>Annika Mcbride</td>
+                                <td>annika.mcbride@mail.com</td>
+                                <td>Yes</td>
+                                <td class="item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                     visibility
+                                    </span>
+                                    <span class="material-icons">
+                                     create
+                                    </span>
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td>#6</td>
+                                <td>Fatimah Clark</td>
+                                <td>fatimah.clark@mail.com</td>
+                                <td>Yes</td>
+                                <td class="item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                     visibility
+                                    </span>
+                                    <span class="material-icons">
+                                     create
+                                    </span>
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td>#7</td>
+                                <td>Klaudia Rhodes</td>
+                                <td>klaudia.rhodes@mail.com</td>
+                                <td>Yes</td>
+                                <td class="item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                     visibility
+                                    </span>
+                                    <span class="material-icons">
+                                     create
+                                    </span>
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td>#8</td>
+                                <td>MTillie Lucero</td>
+                                <td>tillie.lucero@mail.com</td>
+                                <td>Yes</td>
+                                <td class="item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                     visibility
+                                    </span>
+                                    <span class="material-icons">
+                                     create
+                                    </span>
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td>#9</td>
+                                <td>Sabrina Stephenson</td>
+                                <td>sabrina.stephenson@mail.com</td>
+                                <td>Yes</td>
+                                <td class="item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                     visibility
+                                    </span>
+                                    <span class="material-icons">
+                                     create
+                                    </span>
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td >#10</td>
+                                <td >Annie Smithz</td>
+                                <td >annie.smith@mail.com</td>
+                                <td >Yes</td>
+                                <td class=" item-align-right">
+                                    <span class="material-icons mr-4 ">
+                                     visibility
+                                    </span>
+                                    <span class="material-icons">
+                                     create
+                                    </span>
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td ></td>
+                                <td ></td>
+                                <td ></td>
+                                <td ></td>
+                                <td ></td>
+                             </tr>
+                        </tbody>
+                    </table>
+                    <!-- pagination -->
+                    <div class="col-12 d-flex justify-content-end">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item">
+                                <a class="page-link page-nav" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link bg-primary text-white page-nav" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link page-nav text-dark page-nav" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link page-nav text-dark page-nav" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+            </div>
+        </div> 
+    </div>
+   
+
+
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+</body>
+</html>
